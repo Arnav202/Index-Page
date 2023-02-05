@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+<h1><mark>Article-</mark> Taking My Piano Apart</h1>
+<h2>Yamaha F-51 Look Inside</h2>
+<h4>Let's take a quick tour of the Yamaha F-51</h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Bb8AbJMtB0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p>The F-51 has Three boards: the digital and analog electronics board, And the front panel board. <br>The first board was the processing unit. And the first chip was yamaha YMW830-V, <br>Processor and tone generator in a single chip. </p>
+•Yamaha YMW830-V: Processor and tone generator (IC101)
+
+​
+
+•Winbond 25Q16JVS1M: 16Mbit Serial flash memory (IC102)<br>
+
+​
+
+•74VHC273: 8-bit latch for display data (IC301)<br>
+
+​
+
+The YMW830-V is also known as “SWLL” and is a Yamaha proprietary system on a chip (SOC). The F-51 has separate <br>amplifiers for the speaker (IC701) and headphone output (IC601):<br>
+
+
+•TI TLV74333PDBVR: 3.3V regulator (IC001)<br>
+
+
+•TI TPS63060DSCR: Switching regulator (IC004)<br>
+
+
+•TI 12V eFuse: 12V eFuse/power switch (IC006)<br>
+
+​
+
+The F-51 must choose and switch between +12V adapter power and battery power. That’s the role of the eFuse/power switch component<br>
+
+​
+
+The YMW830-V has many of the specs that I’ve come to know about Yamaha’s entry-level CPUs. The external crystal resonates at 16.9344MHz. <br>The YMW830-V internal clock is 33.8688MHz and generates a 67.7376MHz master clock. If these numbers look odd to you, simply note that they are even <br>multiples of 44,100Hz, the basic sample rate:<br>
+
+​<br>
+
+             67.7376MHz = 44,100Hz * 1,536<br> 
+
+​
+<br>
+​
+
+In Video I said YMV380-V By Mistake It Is YMV830-V.
+
+
+
+
+</body>
+</head>
+</html>
